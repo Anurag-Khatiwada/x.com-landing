@@ -1,0 +1,516 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0"
+    />
+    <link rel="stylesheet" href="src/output.css" />
+    <title>Home/X</title>
+  </head>
+  <body class="bg-black text-white">
+    <div class="flex container mx-auto">
+      <div class="first  w-[20%] md:w-[75%]">
+        
+        <div class="slidebar sticky top-0 flex flex-col justify-center items-end py-3 mx-16">
+          <ul class="flex flex-col items-center md:items-start text-xl space-y-1">
+            <li>
+                <div class="logo invert mx-2  ">
+                    <svg
+                      viewBox="0 0 24 24"
+                      aria-hidden="true"
+                      class="w-8 hover:bg-yellow-900 hover:cursor-pointer hover:rounded-full hover:px-1 hover:py-1  r-4qtqp9 r-yyyyoo r-dnmrzs r-bnwqim r-lrvibr r-m6rgpd r-lrsllp r-1nao33i r-16y2uox r-8kz0gk"
+                    >
+                      <g>
+                        <path
+                          d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"
+                        ></path>
+                      </g>
+                    </svg>
+                  </div>
+          
+            </li>
+            <li class="flex gap-2 w-fit px-2 py-2 hover:bg-[#202327] hover:cursor-pointer hover:rounded-3xl">
+              <span class="material-symbols-outlined text-3xl"> home </span>
+              <span class="hidden md:block">Home</span>
+            </li>
+            <li class="flex gap-2 w-fit px-2 py-2 hover:bg-[#202327] hover:cursor-pointer hover:rounded-3xl">
+              <span class="material-symbols-outlined text-3xl"> search </span>
+              <span class="hidden md:block">Explore</span>
+            </li>
+            <li class="flex gap-2 w-fit px-2 py-2 hover:bg-[#202327] hover:cursor-pointer hover:rounded-3xl">
+              <span class="material-symbols-outlined text-3xl"> notifications </span>
+              <span class="hidden md:block">Notifications</span>
+            </li>
+            <li class="flex gap-2 w-fit px-2 py-2 hover:bg-[#202327] hover:cursor-pointer hover:rounded-3xl">
+              <span class="material-symbols-outlined text-3xl"> mail </span>
+              <span class="hidden md:block">Messages</span>
+            </li>
+            <li class="flex gap-2 w-fit px-2 py-2 hover:bg-[#202327] hover:cursor-pointer hover:rounded-3xl">
+              <span class="text-3xl material-symbols-outlined"> message </span>
+              <span class="hidden md:block">Grok</span>
+            </li>
+            <li class="flex gap-2 w-fit px-2 py-2 hover:bg-[#202327] hover:cursor-pointer hover:rounded-3xl">
+              <span class="material-symbols-outlined text-3xl"> bookmark </span>
+              <span class="hidden md:block">BookMark</span>
+            </li>
+            <li class="flex gap-2 w-fit px-2 py-2 hover:bg-[#202327] hover:cursor-pointer hover:rounded-3xl">
+              <span class="text-3xl material-symbols-outlined"> Group </span>
+              <span class="hidden md:block">Communities</span>
+            </li>
+            <li class="flex gap-2 w-fit px-2 py-2 hover:bg-[#202327] hover:cursor-pointer hover:rounded-3xl">
+              <span class="text-3xl material-symbols-outlined"> box </span>
+              <span class="hidden md:block">Premium</span>
+            </li>
+            <li class="flex gap-2 w-fit px-2 py-2 hover:bg-[#202327] hover:cursor-pointer hover:rounded-3xl">
+              <span class="material-symbols-outlined text-3xl"> person </span>
+              <span class="hidden md:block">Profile</span>
+            </li>
+            <li class="flex gap-2 w-fit px-2 py-2 hover:bg-[#202327] hover:cursor-pointer hover:rounded-3xl">
+              <span class="material-symbols-outlined text-3xl"> more_horiz </span>
+              <span class="hidden md:block">more</span>
+            </li>
+            <li  class="flex justify-center items-center gap-4 bg-blue-400 w-16 h-10 md:w-56 md:h-12 rounded-3xl p-6 hover:bg-blue-800">
+                <button>Post</button>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="second w-full h-full border-[0.01px] border-opacity-30 border-x-white border-y-black relative">
+
+        <div class="w-20 h-1 bg-blue-500 absolute top-12 left-24"></div>
+
+        <div class="top flex">
+          <div class="left w-1/2 flex justify-center items-center py-3 text-xl hover:cursor-pointer hover:bg-[#202327]">For You</div>
+          <div class="right w-1/2 flex justify-center items-center py-3 text-xl hover:cursor-pointer hover:bg-[#202327]">Following</div>
+          <div class="settings flex justify-center items-center hover:cursor-pointer">
+            <span class="material-symbols-outlined mx-1">
+              settings
+            </span>
+            
+          </div>
+          
+        </div>
+        <hr class="opacity-30">
+
+        <div class="whatsHappining w-full h-[7%] flex my-3 mx-4">
+          <div class="anurag w-12 h-full">
+            <img class="w-full h-10 my-2 mx-1 rounded-full" src="https://pbs.twimg.com/profile_images/1797938747167682561/IcF6HcMN_400x400.png" alt="">
+          </div>
+          <div class="writeHere w-full h-full flex flex-col">
+            <div class="upper w-full h-[75%]">
+              <textarea class="w-[90%] h-[60%] bg-transparent mx-4 my-4 text-xl outline-none" placeholder="What is happining!?" name="writeHere" id="writeHere"></textarea>
+            </div>
+            <div class="lower w-full h-[25%] flex">
+              <div class="icons h-full w-[60%]">
+                <ul class="flex mx-4 gap-3 text-blue-600">
+                  <li class="cursor-pointer">
+                    <span class="material-symbols-outlined">
+                      perm_media
+                    </span>
+                  </li>
+                  <li class="cursor-pointer">
+                    <span class="material-symbols-outlined">
+                      gif_box
+                      </span>
+                  </li>
+                  <li class="cursor-pointer">
+                    <span class="material-symbols-outlined">
+                      ballot
+                      </span>
+                  </li>
+                  <li class="cursor-pointer">
+                    <span class="material-symbols-outlined">
+                      mood
+                      </span>
+                  </li>
+                  <li class="cursor-pointer">
+                    <span class="material-symbols-outlined">
+                      calendar_clock
+                      </span>
+                  </li>
+                  <li class="cursor-pointer">
+                    <span class="material-symbols-outlined">
+                      location_on
+                      </span>
+                  </li>
+                  
+                </ul>
+              </div>
+              <div class="post h-full w-[40%] flex justify-end mx-8">
+
+                  <button class="flex justify-center items-center bg-blue-400 text-gray-200 w-16 h-6 px-4 py-4 rounded-full p-6 hover:bg-blue-800">Post</button>
+
+              </div>
+            </div>
+          </div>
+        </div>
+        <hr class="opacity-30">
+        <div class="showpost text-blue-500 w-full h-[2%] flex justify-center items-center text-xl my-1">
+          Show 280 Post
+        </div>
+        <hr class="opacity-30">
+        <div class="post w-full h-[30%] flex ">
+          <div class="BY w-[9%] h-full  mx-4 my-2">
+            <img class="rounded-full my-2 " src="https://pbs.twimg.com/profile_images/1302268976253206532/k0LN7yP7_400x400.jpg" alt="">
+          </div>
+          <div class="content my-2 w-full relative">
+            <h1 class="text-xl font-bold my-1">CAN</h1>
+            <div class="mid ">
+              <p>
+                'प्रेस बिज्ञप्ति
+              </p>
+
+              
+            </div>
+            <div class="photoOrVideo border-1 my-4 w-[80%] h-[80%]">
+              <img class="h-full w-full rounded-[20px]" src="https://pbs.twimg.com/media/GQCDLr1bkAAcJ-S?format=jpg&name=large" alt="">
+            </div>
+            <div class="icons2 my-2 w-full h-[7%] bottom-0 flex items-center">
+              <ul class="flex items-center gap-4 md:gap-12 u-full ">
+                <li class="flex text-gray-400 hover:text-blue-300" >
+                  <span class="material-symbols-outlined hover:cursor-pointer hover:text-blue-300  hover:rounded-full hover:bg-cyan-300 hover:bg-opacity-20">
+                  quick_phrases
+                  </span>
+                  <span class="mx-2">33</span>
+                </li>
+
+                <li class="flex text-gray-400 hover:text-green-300" >
+                  <span class="material-symbols-outlined hover:cursor-pointer hover:text-green-300 hover:rounded-full hover:bg-emerald-300 hover:bg-opacity-20">
+                    cached
+                    </span>
+                    <span class="mx-2">6</span>
+                    
+                </li>
+
+                <li class="flex text-gray-400 hover:text-red-600">
+                  <span class="material-symbols-outlined hover:cursor-pointer hover:text-red-600 hover:rounded-full hover:bg-rose-600 hover:bg-opacity-20">
+                    favorite
+                    </span><span class="mx-2">22k</span>
+                </li>
+
+                <li class="flex text-gray-400 hover:text-blue-300 ">
+                  <span class="material-symbols-outlined hover:cursor-pointer hover:text-blue-300  hover:rounded-full hover:bg-cyan-300 hover:bg-opacity-20">
+                    visibility
+                    </span><span class="mx-2">36k</span>
+                </li>
+                <li class="flex text-gray-400 hover:text-blue-300">
+                  <span class="material-symbols-outlined hover:cursor-pointer hover:text-blue-300  hover:rounded-full hover:bg-cyan-300 hover:bg-opacity-20">
+                    bookmark
+                    </span>
+                </li>
+              </ul>
+              <div class="share w-[6%] h-full text-gray-400 hover:text-blue-300 ">
+                <span class="material-symbols-outlined mx-1 my-2 md:my-3 hover:cursor-pointer hover:text-blue-300  hover:rounded-full hover:bg-cyan-300 hover:bg-opacity-20">
+                  upload
+                  </span>
+              </div>
+            </div>
+             
+            </div>
+
+        </div>
+        <hr class="opacity-30">
+
+
+        <div class="post w-full h-[30%] flex ">
+          <div class="BY w-[9%] h-full  mx-4 my-2">
+            <img class="rounded-full my-2 " src="https://pbs.twimg.com/profile_images/1410983637391069187/bxoCUxj8_400x400.jpg" alt="">
+          </div>
+          <div class="content my-2 w-full relative">
+            <h1 class="text-xl font-bold my-1">Routine Of Nepal banda</h1>
+            <div class="mid ">
+              <p>
+                Heart Breaking moment when Nepal lost by just 1 run as Gulsan Jha was runout by the barest of margin. 💔
+              </p>
+
+              
+            </div>
+            <div class="photoOrVideo border-1 my-4 w-[95%] h-[70%]">
+              <img class="h-full w-full rounded-[20px]" src="https://pbs.twimg.com/media/GQFVvrmX0AAC6wT?format=jpg&name=medium" alt="">
+            </div>
+            <div class="icons2 my-2 w-full h-[7%] bottom-0 flex items-center">
+              <ul class="flex items-center gap-4 md:gap-12 u-full ">
+                <li class="flex text-gray-400 hover:text-blue-300" >
+                  <span class="material-symbols-outlined hover:cursor-pointer hover:text-blue-300  hover:rounded-full hover:bg-cyan-300 hover:bg-opacity-20">
+                  quick_phrases
+                  </span>
+                  <span class="mx-2">33</span>
+                </li>
+
+                <li class="flex text-gray-400 hover:text-green-300" >
+                  <span class="material-symbols-outlined hover:cursor-pointer hover:text-green-300 hover:rounded-full hover:bg-emerald-300 hover:bg-opacity-20">
+                    cached
+                    </span>
+                    <span class="mx-2">6</span>
+                    
+                </li>
+
+                <li class="flex text-gray-400 hover:text-red-600">
+                  <span class="material-symbols-outlined hover:cursor-pointer hover:text-red-600 hover:rounded-full hover:bg-rose-600 hover:bg-opacity-20">
+                    favorite
+                    </span><span class="mx-2">22k</span>
+                </li>
+
+                <li class="flex text-gray-400 hover:text-blue-300 ">
+                  <span class="material-symbols-outlined hover:cursor-pointer hover:text-blue-300  hover:rounded-full hover:bg-cyan-300 hover:bg-opacity-20">
+                    visibility
+                    </span><span class="mx-2">36k</span>
+                </li>
+                <li class="flex text-gray-400 hover:text-blue-300">
+                  <span class="material-symbols-outlined hover:cursor-pointer hover:text-blue-300  hover:rounded-full hover:bg-cyan-300 hover:bg-opacity-20">
+                    bookmark
+                    </span>
+                </li>
+              </ul>
+              <div class="share w-[6%] h-full text-gray-400 hover:text-blue-300 ">
+                <span class="material-symbols-outlined mx-1 my-2 md:my-3 hover:cursor-pointer hover:text-blue-300  hover:rounded-full hover:bg-cyan-300 hover:bg-opacity-20">
+                  upload
+                  </span>
+              </div>
+            </div>
+             
+            </div>
+
+        </div>
+        <hr class="opacity-30">
+        
+
+        <div class="post w-full h-[30%] flex ">
+          <div class="BY w-[9%] h-full  mx-4 my-2">
+            <img class="rounded-full my-2 " src="https://pbs.twimg.com/profile_images/940234138010886145/pFXWgnqn_400x400.jpg" alt="">
+          </div>
+          <div class="content my-2 w-full relative">
+            <h1 class="text-xl font-bold my-1">BBC News Nepal</h1>
+            <div class="mid ">
+              <p>
+                नागरिकता त्याग्ने प्रवृत्तिबारे तपाईँ के भन्‍नुहुन्छ?
+
+                <p class="text-blue-400">#BBCNepali #NepaliCitizenship #Migration</p>
+              </p>
+
+              
+            </div>
+            <div class="photoOrVideo border-1 my-4 w-[95%] h-[75%]">
+              <img class="h-full w-full rounded-[20px]" src="https://pbs.twimg.com/media/GQA9L-DWwAAiNh3?format=jpg&name=medium" alt="">
+            </div>
+            <div class="icons2 my-2 w-full h-[7%] bottom-0 flex items-center">
+              <ul class="flex items-center gap-4 md:gap-12 u-full ">
+                <li class="flex text-gray-400 hover:text-blue-300" >
+                  <span class="material-symbols-outlined hover:cursor-pointer hover:text-blue-300  hover:rounded-full hover:bg-cyan-300 hover:bg-opacity-20">
+                  quick_phrases
+                  </span>
+                  <span class="mx-2">33</span>
+                </li>
+
+                <li class="flex text-gray-400 hover:text-green-300" >
+                  <span class="material-symbols-outlined hover:cursor-pointer hover:text-green-300 hover:rounded-full hover:bg-emerald-300 hover:bg-opacity-20">
+                    cached
+                    </span>
+                    <span class="mx-2">6</span>
+                    
+                </li>
+
+                <li class="flex text-gray-400 hover:text-red-600">
+                  <span class="material-symbols-outlined hover:cursor-pointer hover:text-red-600 hover:rounded-full hover:bg-rose-600 hover:bg-opacity-20">
+                    favorite
+                    </span><span class="mx-2">22k</span>
+                </li>
+
+                <li class="flex text-gray-400 hover:text-blue-300 ">
+                  <span class="material-symbols-outlined hover:cursor-pointer hover:text-blue-300  hover:rounded-full hover:bg-cyan-300 hover:bg-opacity-20">
+                    visibility
+                    </span><span class="mx-2">36k</span>
+                </li>
+                <li class="flex text-gray-400 hover:text-blue-300">
+                  <span class="material-symbols-outlined hover:cursor-pointer hover:text-blue-300  hover:rounded-full hover:bg-cyan-300 hover:bg-opacity-20">
+                    bookmark
+                    </span>
+                </li>
+              </ul>
+              <div class="share w-[6%] h-full text-gray-400 hover:text-blue-300 ">
+                <span class="material-symbols-outlined mx-1 my-2 md:my-3 hover:cursor-pointer hover:text-blue-300  hover:rounded-full hover:bg-cyan-300 hover:bg-opacity-20">
+                  upload
+                  </span>
+              </div>
+            </div>
+             
+            </div>
+
+        </div>
+        <hr class="opacity-30">
+
+      </div>
+      <div class="third w-[95%] my-2 hidden md:block">
+        <div class="sticky w-full h-full top-0">
+          <div class="search mx-10 my-1 flex justify-start items-center  gap-2 bg-[#202327] w-[75%] px-3 py-2 rounded-full">
+            <span class="material-symbols-outlined mx-3 text-2xl text-gray-400"> search </span>
+            <input type="text" class="text-white text-xl bg-transparent border-none cursor-text"  placeholder="Search">
+          </div>
+          <div class="subscribe  flex flex-col items-start px-5 py-4 bg-transparent mx-12 my-6 h-[10%] w-[75%] border-[1px]  border-white border-opacity-30 rounded-3xl">
+            <div class="text-white text-2xl font-extrabold">
+              <p>Subscribe to Premium</p>
+            </div>
+            <div class="text-white my-2">
+              <p>Subscribe to unlock new features and if eligible, receive a share of ads revenue.</p>
+            </div>
+            <div class="bg-blue-400 w-fit my-1 px-5 py-5 flex items-center h-6 rounded-full">
+              <button>subscribe</button>
+            </div>
+          </div>
+          <div class="trend flex flex-col gap-2 items-start bg-transparent px-3 py-3 mx-12 my-6 h-[120vh] w-[75%] border-[1px]  border-white border-opacity-30 rounded-3xl">
+            <h1 class="text-2xl font-extrabold">Trends for you</h1>
+            <ul class="flex w-full flex-col gap-4">
+              <li class="flex justify-between w-full hover:bg-[#101010] hover:cursor-pointer ">
+                <div>
+                  <p class=" text-gray-400">Music. Trending</p>
+                  <h2 class="font-extrabold">King</h2>
+                  <p class=" text-gray-400">423k Posts</p>
+                </div>
+                <span class="material-symbols-outlined text-3xl"> more_horiz </span>
+              </li>
+              <li class="flex justify-between w-full hover:bg-[#101010] hover:cursor-pointer ">
+                <div>
+                  <p class=" text-gray-400">Politics. Trending</p>
+                  <h2 class="font-extrabold">Russial</h2>
+                  <p class=" text-gray-400">325k Posts</p>
+                </div>
+                <span class="material-symbols-outlined text-3xl"> more_horiz </span>
+              </li>
+              <li class="flex justify-between w-full hover:bg-[#101010] hover:cursor-pointer ">
+                <div>
+                  <p class=" text-gray-400">Trending in Nepal</p>
+                  <h2 class="font-extrabold">#Nepse</h2>
+                </div>
+                <span class="material-symbols-outlined text-3xl"> more_horiz </span>
+              </li>
+              <li class="flex justify-between w-full hover:bg-[#101010] hover:cursor-pointer ">
+                <div>
+                  <p class=" text-gray-400">Entertainment. Trending</p>
+                  <h2 class="font-extrabold">#Prabhas</h2>
+                  <p class=" text-gray-400">112k Posts</p>
+                </div>
+                <span class="material-symbols-outlined text-3xl"> more_horiz </span>
+              </li>
+              <li class="flex justify-between w-full hover:bg-[#101010] hover:cursor-pointer ">
+                <div>
+                  <p class=" text-gray-400">Sports. Trending</p>
+                  <h2 class="font-extrabold">T20 WC</h2>
+                  <p class=" text-gray-400">3,423 Posts</p>
+                </div>
+                <span class="material-symbols-outlined text-3xl"> more_horiz </span>
+              </li>
+              <li class="flex justify-between w-full hover:bg-[#101010] hover:cursor-pointer ">
+                <div>
+                  <p class=" text-gray-400">Trending in Nepal</p>
+                  <h2 class="font-extrabold">President Paudel</h2>
+                </div>
+                <span class="material-symbols-outlined text-3xl"> more_horiz </span>
+              </li>
+              <li class="flex justify-between w-full hover:bg-[#101010] hover:cursor-pointer ">
+                <div>
+                  <p class=" text-gray-400">Trending in Nepal</p>
+                  <h2 class="font-extrabold">Kathmandu Valley</h2>
+                </div>
+                <span class="material-symbols-outlined text-3xl"> more_horiz </span>
+              </li>
+              <li class="flex justify-between w-full hover:bg-[#101010] hover:cursor-pointer ">
+                <div>
+                  <p class=" text-gray-400">Sports. Trending</p>
+                  <h2 class="font-extrabold">Cricket</h2>
+                  <p class=" text-gray-400">71.8k Posts</p>
+                </div>
+                <span class="material-symbols-outlined text-3xl"> more_horiz </span>
+              </li>
+              <li class="flex justify-between w-full hover:bg-[#101010] hover:cursor-pointer ">
+                <div>
+                  <p class=" text-gray-400">Trending in Nepal</p>
+                  <h2 class="font-extrabold">#Nepal Views</h2>
+                </div>
+                <span class="material-symbols-outlined text-3xl"> more_horiz </span>
+              </li>
+              <li class="flex justify-between w-full hover:bg-[#101010] hover:cursor-pointer ">
+                <div>
+                  <p class=" text-gray-400">Trending in Nepal</p>
+                  <h2 class="font-extrabold">Full Story</h2>
+                  <p class=" text-gray-400">56k Posts</p>
+                </div>
+                <span class="material-symbols-outlined text-3xl"> more_horiz </span>
+              </li>
+            
+              <a class="text-blue-500 text-xl my-1" href="#">Show More</a>
+            
+            </ul>
+          </div>
+          <div class="follow flex flex-col items-start gap-4 px-5 py-4 bg-transparent mx-12 my-6 h-[19%] w-[75%] border-[1px]  border-white border-opacity-30 rounded-3xl">
+            <h1 class="text-2xl font-extrabold">Who to follow</h1>
+            <ul class="flex w-full flex-col gap-4">
+              <li class="flex justify-between">
+                <div class="info flex gap-4 items-center">
+                  <div class="img w-10 h-10">
+                    <img class="bg-cover rounded-full hover:cursor-pointer" src="https://pbs.twimg.com/profile_images/741978612434227201/UkmkHiYy_400x400.jpg" alt="">
+                  </div>
+                  <div class="flex flex-col">
+                    <a class="font-bold text-xl hover:underline" href="#"> Baburam Bhattarai</a>
+                    <p class=" text-gray-400">@brb1954</p>
+                  </div>
+                </div>
+                <button class="bg-white w-24 h-10 text-black font-bold mx-2 py-1 rounded-full">Follow</button>
+              </li>
+              <li class="flex justify-between">
+                <div class="info flex gap-4 items-center">
+                  <div class="img w-10 h-10">
+                    <img class="bg-cover rounded-full hover:cursor-pointer" src="https://pbs.twimg.com/profile_images/1604943357750419465/wk5BAmKG_400x400.png" alt="">
+                  </div>
+                  <div class="flex flex-col">
+                    <a class="font-bold text-xl hover:underline" href="#"> SportsCenter</a>
+
+                    <p class=" text-gray-400">@sportscenter</p>
+                  </div>
+                </div>
+                <button class="bg-white w-24 h-10 text-black font-bold mx-2 py-1 rounded-full">Follow</button>
+              </li>
+              <li class="flex justify-between">
+                <div class="info flex gap-4 items-center">
+                  <div class="img w-10 h-10">
+                    <img class="bg-cover rounded-full hover:cursor-pointer" src="https://pbs.twimg.com/profile_images/1170690523201527808/FriNRiir_400x400.png" alt="">
+                  </div>
+                  <div class="flex flex-col">
+                    <a class="font-bold text-xl hover:underline" href="#"> ESPN</a>
+                    <p class=" text-gray-400">@espn</p>
+                  </div>
+                </div>
+                <button class="bg-white w-24 h-10 text-black font-bold mx-2 py-1 rounded-full">Follow</button>
+              </li>
+              <a class="text-blue-500 text-xl" href="#">Show More</a>
+
+            </ul>
+          </div>
+          <footer class="footer flex items-start  px-5 py-4 bg-transparent mx-12 my-6 h-[5%] w-[75%]">
+            <ul class="flex  flex-wrap items-center w-full gap-3">
+              <li class=" text-gray-400"><a class="hover:underline" href="#">Terms and services</a></li>
+              <li class=" text-gray-400"><a class="hover:underline" href="#">Privacy Policy</a></li>
+              <li class=" text-gray-400"><a class="hover:underline" href="#">cookie policy</a></li>
+              <li class=" text-gray-400"><a class="hover:underline" href="#">Accessibility</a></li>
+              <li class=" text-gray-400"><a class="hover:underline" href="#">Ads info</a></li>
+              <li class=" text-gray-400" >
+                <a class="hover:underline flex items-center" href="#">
+                  <span>More</span>
+                  <span class="material-symbols-outlined text-3xl"> more_horiz </span>
+                </a>
+              </li>
+              <li class=" text-gray-400">© 2024 X Corp.</li>
+
+
+
+            
+            </ul>
+          </footer>
+        </div>
+      </div>  
+    </div>
+  </body>
+</html>
